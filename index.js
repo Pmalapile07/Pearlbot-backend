@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_API_KEY = process.env.AIzaSyAEI9xEmfub47xqu1IYljT_JQpydaCVIIk;
 
 app.post("/chat", async (req, res) => {
   const userInput = req.body.message || "Hello from frontend";
